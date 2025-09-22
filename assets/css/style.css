@@ -1149,6 +1149,25 @@ section {
   }
 }
 
+@media (max-width: 500px) {
+  .skills .progress .skill {
+    font-size: 9px;
+    line-height: 1.6;
+    padding: 18px 0 8px 0;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  .skills .progress {
+    margin-bottom: 35px;
+    min-height: 65px;
+  }
+  .skills .progress .skill .val {
+    font-size: 9px;
+    margin-top: 5px;
+  }
+}
+
 @media (max-width: 400px) {
   .skills .progress .skill {
     font-size: 10px;
@@ -1172,6 +1191,28 @@ section {
   #hero p {
     font-size: 16px;
     line-height: 22px;
+  }
+}
+
+@media (max-width: 380px) {
+  .skills .progress .skill {
+    font-size: 9px;
+    line-height: 1.5;
+    padding: 15px 0 5px 0;
+    display: block;
+    white-space: normal;
+    word-break: break-word;
+  }
+  .skills .progress {
+    margin-bottom: 30px;
+    min-height: 60px;
+  }
+  .skills .progress .skill .val {
+    font-size: 9px;
+    display: block;
+    float: none;
+    text-align: right;
+    margin-top: 2px;
   }
 }
 
