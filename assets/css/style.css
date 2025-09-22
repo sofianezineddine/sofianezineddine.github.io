@@ -1037,7 +1037,115 @@ section {
   #footer {
     position: static;
     width: auto;
-    padding-right: 20px 15px;
+    padding: 20px 15px;
+  }
+}
+
+/* Responsive Design Media Queries */
+@media (max-width: 992px) {
+  #hero {
+    background-size: cover;
+    background-position: center;
+  }
+
+  #hero h1 {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-weight: 800;
+  }
+  #hero p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+  }
+  #hero .hero-container {
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .section-title h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  #hero p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .section-title h2 {
+    font-size: 24px;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .about .content h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .about .content {
+    text-align: center;
+  }
+  .about .content ul {
+    text-align: left;
+    display: inline-block;
+  }
+  .services .icon {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .services .title {
+    margin-left: 0;
+    text-align: center;
+  }
+  .services .description {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .contact .info {
+    padding: 20px;
+  }
+  .contact iframe {
+    height: 250px !important;
+  }
+  .resume .resume-item {
+    padding: 0 0 20px 15px;
+  }
+  .resume .resume-item h4 {
+    font-size: 16px;
+  }
+  .resume .resume-item h5 {
+    font-size: 14px;
+  }
+  .portfolio #portfolio-flters li {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  .services .icon-box {
+    margin-bottom: 30px;
   }
 }
 
