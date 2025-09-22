@@ -1194,6 +1194,23 @@ section {
   }
 }
 
+@media (max-width: 370px) {
+  .skills .progress-bar-wrap {
+    background: #dce8f8 !important;
+    height: 10px !important;
+    display: block !important;
+  }
+  .skills .progress-bar {
+    height: 10px !important;
+    background-color: #0073aa !important;
+    display: block !important;
+  }
+  .skills .progress {
+    height: auto !important;
+    display: block !important;
+  }
+}
+
 @media (max-width: 380px) {
   .skills .progress .skill {
     font-size: 9px;
