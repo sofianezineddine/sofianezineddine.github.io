@@ -420,7 +420,7 @@ section {
 }
 
 .skills .progress-bar {
-  width: 1px;
+  width: 100%;
   height: 10px;
   transition: .9s;
   background-color: #0073aa;
@@ -1146,6 +1146,32 @@ section {
   }
   .services .icon-box {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .skills .progress .skill {
+    font-size: 10px;
+    line-height: 1.4;
+    padding: 12px 0;
+    word-wrap: break-word;
+  }
+  .skills .progress {
+    margin-bottom: 25px;
+  }
+  .skills .progress .skill .val {
+    font-size: 10px;
+  }
+  .section-title h2 {
+    font-size: 20px;
+  }
+  #hero h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  #hero p {
+    font-size: 16px;
+    line-height: 22px;
   }
 }
 

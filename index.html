@@ -798,6 +798,18 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+  <!-- Progress Bar Animation -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const progressBars = document.querySelectorAll('.progress-bar');
+      
+      progressBars.forEach(function(bar) {
+        const percentage = bar.getAttribute('aria-valuenow');
+        bar.style.width = percentage + '%';
+      });
+    });
+  </script>
 
 
   <!-- Messenger Chat Plugin Code -->
